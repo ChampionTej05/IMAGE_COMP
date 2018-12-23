@@ -26,15 +26,26 @@ We have used __Python 3.6.5 :: Anaconda, Inc.__ to make the project. You can get
 2. The standalone scripts to encode as well as decode your 28x28 images.
 3. The IEEE paper on image compression using CAE
 
+### Results Obtained After using the Optimizer and Before using Optimizer
+![ADAM Optimizer](https://github.com/ChampionTej05/IMAGE_COMP/blob/master/images/all_four_plots.png)
+
+### Outcome for test image of 4. Image was imported from MNIST data set
+![Image Outcomes](https://github.com/ChampionTej05/IMAGE_COMP/blob/master/images/four_result.png)
+
+### Experimental Analysis of the loss, when batch size of 16 and 8 were tried
+![Batch Wise Outcome](https://github.com/ChampionTej05/IMAGE_COMP/blob/master/images/only_two_plots.png)
+
 ## Limitations: 
-1. Our model currently accepts only 28x28 images, so your image would be resized to 28x28 if it greater than that.
-2. The average loss over the period of 2000 is below 100, but we are yet to reach point of saturation.
-3. This project is the basic implemenation of Neural Network conceptualization and hence we have not yet considered the techniques like PCA , DenseNET and GAN to create better complex architecture.
+1. Our model currently accepts only 28x28 images, so your image would be resized to 28x28 if it is greater than that.
+2. Our model is currently trained on only MNIST data set, so it might not perform as it was expected on real world images.
+3. The average loss over the period of 2000 is below 100, but we are yet to reach point of saturation.
+4. This project is the basic implemenation of Neural Network conceptualization and hence we have not yet considered the techniques like PCA , DenseNET and GAN to create better complex architecture.
 
 ## Future Goals:
 1. Reduce the average loss to below 50
 2. Make it available for all types of image sizes
 3. Use of denseNET to achieve the lossless image compression.
+4. Training model over real world dataset of low resolution images
 
 ## Modules used:
 1. Tensorflow version  1.12.0 
