@@ -21,10 +21,15 @@ We have used __Python 3.6.5 :: Anaconda, Inc.__ to make the project. You can get
 6. Open the "Decoding.py" and run it, check for the reconstructed image, plot.
 ```
 
+## Project Files:
+1. Abstract of the Project can be found here [Abstract](https://drive.google.com/open?id=1dkDY-etIBPQBvHE4bc3bJEQDRm7sRX0N)
+2. Pipeline of the Project can be found here [Pipeline](https://drive.google.com/open?id=1luwRXRsVp7c2tYVuw5hJnl_vD4Lr9Bga)
+3. Software and Algorithms used in the project can be found here [DEV ALGO](https://drive.google.com/open?id=1SQXgXsZGI-Y1wuMIBiYpOT91-8TFxE_k)
+
 ## Outcomes:
 1. We were successfully able to produce the reconstructed image, with loss in range of 100 to 120.
 2. The standalone scripts to encode as well as decode your 28x28 images.
-3. The IEEE paper on image compression using CAE
+3. The IEEE paper on image compression using CAE [IMAGE_COMP](https://drive.google.com/open?id=1ByZY7KIpHVee0mZhU9cgz0zd0eXuxt3-)
 
 ### Results Obtained After using the Optimizer and Before using Optimizer
 ![ADAM Optimizer](https://github.com/ChampionTej05/IMAGE_COMP/blob/master/images/all_four_plots.png)
